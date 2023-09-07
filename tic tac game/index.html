@@ -1,0 +1,29 @@
+
+<head>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Welcome to tic tac game</h1>
+    <table>
+        <tr>
+            <th onclick="playerMove(this)" class="cell"></th>
+            <th onclick="playerMove(this)" class="cell"></th>
+            <th onclick="playerMove(this)" class="cell"></th>
+        </tr>
+        <tr>
+            <td onclick="playerMove(this)" class="cell"></td>
+            <td onclick="playerMove(this)"class="cell"></td>
+            <td onclick="playerMove(this)"class="cell"></td>
+        </tr>
+        <tr>
+            <td onclick="playerMove(this)" class="cell"></td>
+            <td onclick="playerMove(this)"class="cell"></td>
+            <td onclick="playerMove(this)"class="cell"></td>
+        </tr>
+    </table>
+    <div id ="playerTurn">Now it is the turn of "X"</div>
+    <div id ="result"></div>
+    <button onclick="restartGame()">Restart the game</button>
+</body>
+</html>
